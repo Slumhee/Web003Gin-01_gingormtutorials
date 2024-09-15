@@ -2478,7 +2478,7 @@ func (emptyCtx) Value(key any) any {
 
 通过`context.WithTimeout()` 设置上下文的超时时间, 在到达超时之后自动结束。
 
-而`WithDeadline()`则将设置上下文需要完成的截至时间。
+而`WithDeadline()`则将设置上下文需要完成的截止时间。
 
 例子:
 
